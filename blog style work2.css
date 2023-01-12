@@ -1,0 +1,839 @@
+div.main{
+    background-color:darkorange;
+    color: whitesmoke;
+    font-size: medium;
+    text-align: right;
+   padding: 10px;
+}
+div.navbar{
+    background-color: darkorange;
+    color: whitesmoke;
+    text-align: center;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    background-color: darkorange;
+}
+h1{
+    color: darkorange;
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  font-size: 30px;
+}
+
+.dropdown .dropbtn {
+  font-size: 30px;  
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: red;
+  min-width: 20px;
+  box-shadow:#333;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color:whitesmoke;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color:red;
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+}
+div.repair{
+  background-image: url("../website or blog/images/r1.jpg");
+  color: whitesmoke;
+  background-size:cover;
+}
+h1.repair{
+  color:floralwhite;
+}
+button.lr{
+   background-image:url("../website or blog/images/lr.jpeg");
+   background-size: cover;
+   font-size: 50px;
+   color: whitesmoke;
+   text-align: center;
+   transition: transform .2s;
+   margin: 0 auto;
+   cursor: pointer;
+  }
+.lr:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+button.cr{
+  background-image: url("../website or blog/images/cr.jpg");
+  background-size: cover;
+  font-size: 50px;
+  color: whitesmoke;
+ text-align: center;
+ transition: transform .2s;
+ margin: 0 auto;
+ cursor: pointer;
+}
+.cr:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+button.Pr{
+  background-image: url("../website or blog/images/pr1.jpeg");
+  background-size: cover;
+  font-size: 50px;
+  color: whitesmoke;
+  text-align: center;
+  transition: transform .2s;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.Pr:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+h1.c{
+  background-image: url("../website or blog/images/cu1.jpg");
+  background-size: cover;
+  text-align: center;
+  color: whitesmoke;
+}
+a.active{
+  background-color: red;
+}
+div.icon-bar{
+  padding-top: 300px;
+  position:fixed;
+  top: 50%;
+  -webkit-transform:translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.laprepair{
+  background-image: url("../website or blog/images/lr1.jpg");
+  background-size: cover;
+}
+
+.footer{
+  background-color: orange;
+  text-align: center;
+  padding: 10px;
+}
+nav.cu{
+  text-align: center;
+}
+a.footer{
+  background-color: orange;
+}
+input{
+  font-size: 20px;
+  border-style: inset;
+  width: 20%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  opacity: 0.9;
+  color: black;
+}
+input.address{
+  font-size: 20px;
+  border-style: inset;
+  width: 20%;
+  font-size: 20px;
+  padding: 15px;
+ margin: 5px 0 22px 0;
+  height: 100px;
+}
+label{
+  font-size: 20px
+}
+@keyframes fade {
+  0% {
+  opacity: 0;
+  }
+  100% {
+  opacity: 1;
+  }
+  }
+  * {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  }
+  body {
+  height: 100%;
+  }
+  body h1 {
+  text-align: center;
+  }
+  .slide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 2000px;
+  margin: auto;
+  position: relative;
+  }
+  .slide-container .slide {
+  display: none;
+  width: 100%;
+  }
+  .slide-container .slide.fade {
+  animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  }
+  .slide-container .slide img {
+  width: 100%;
+  }
+  .slide-container .prev,
+.slide-container .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+transition: all 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+.slide-container .prev:hover,
+.slide-container .next:hover {
+background-color: rgba(0, 0, 0, 0.8);
+color: white;
+}
+.slide-container .prev {
+left: 2px;
+}
+.slide-container .next {
+right: 2px;
+}
+.dots-container {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+.dots-container .dot {
+cursor: pointer;
+margin: 5px;
+width: 20px;
+height: 20px;
+color: #333;
+border-radius: 50%;
+background-color: #dfd6ce;
+}
+.dots-container .dot.active {
+border: 2px solid green;
+}
+div.lcp{
+  padding: 20px;
+}
+input[type=text], textarea{
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email]{
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+ul.cc{
+  list-style-type:lower-alpha;
+  text-align:left;
+  color: whitesmoke;
+  font-size: 40px;
+}
+div.parallax{
+  background-image: url('../website or blog/images/br.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+h1.cc{
+  color:whitesmoke;
+  font-size: 50px;
+}
+h2.cc{
+  color: whitesmoke;
+  font-size: 40px;
+}
+img.rc{
+background-color:black;
+}
+nav.p1{
+  background-image: url('../website or blog/images/br1.jpg');
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  text-align: center;
+  opacity: 0.9;
+}
+.p1 p{
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ccc;
+}
+button.cr1{
+  border-radius: 4px;
+  background-color:goldenrod;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+div.l{
+background-image:url('../website or blog/images/hardware-computer-computer-service-technology.jpg') ;
+height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.bar{
+  background-color: orangered;
+  text-align: center;
+}
+.b1{
+  background-color:orangered;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.4;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.b1 p{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.b1:hover {opacity: 5;
+cursor: pointer;
+}
+.b1:hover p{
+  width: 150px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7; 
+ }
+ .o{
+  background-image: url('../website or blog/images/b1.jpg');
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  text-align: center;
+  color: whitesmoke;
+ }
+input[type=search]{
+  width:200px;
+  height:20px;
+}
+button[type=submit]{
+  width: 70px;
+  height: 30px;
+  background-color:lightgray;
+  color: orangered;
+  margin-left: 10px;
+  font-size: medium;
+  border:20p;
+}
+button[type=submit]:hover{
+  background-color: orangered;
+  color: whitesmoke;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.parallax-1 {
+  width: 100%;
+  height: 500px;
+  background: url('../website or blog/images/istockphoto-1292991881-170667a.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.parallax-1 h1{
+  text-align: left;
+  color:black;
+  font-size: 50px;
+}
+.parallax-1 h2{
+  font-size: 25px ;
+}
+.parallax-1 p{
+  font-size: 15px;
+}
+.parallax-1 button{
+  border-radius: 4px;
+  background-color:goldenrod;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.para-1{
+  background-color:rgb(247, 208, 109);
+  font-size:20px ;
+}
+.parallax-2 {
+  width: 100%;
+  height: 600px;
+  background: url('../website or blog/images/360_F_415765406_bNYus3fB14MOQEBTwFM6WeCmj7byxGRO.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  opacity: 0.7; 
+}
+.parallax-2 h2{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.para-2{
+  color: #dfd6ce;
+font-size: 20px;
+}
+.para-3 {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
+  background-color: aliceblue;
+}
+.para-3 p{
+  position: relative;
+    
+    padding: 3rem;
+    background-color: whitesmoke;
+    font-size: 25px;
+    background: color opacity 0.4; 
+  }
+  .parallax-3 {
+    width: 100%;
+    height: 500px;
+    background: url('../website or blog/images/8a36f1b33b436275a8424ab0d7c307da.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  .parallax-3 h1{
+    text-align: left;
+    color:black;
+    font-size: 50px;
+  }
+  .parallax-3 h2{
+    font-size: 25px ;
+  }
+  .parallax-3 p{
+    font-size: 15px;
+  }
+  .parallax-3 button{
+    border-radius: 4px;
+    background-color:goldenrod;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition:all 0.60s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .parallax-4 {
+    width: 100%;
+    height: 500px;
+    background: url('../website or blog/images/print.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  .parallax-4 h1{
+    text-align: left;
+    color:whitesmoke;
+    font-size: 50px;
+  }
+  .parallax-4 h2{
+    font-size: 25px ;
+    color: whitesmoke;
+  }
+  .parallax-4 p{
+    font-size: 15px;
+    color: whitesmoke;
+  }
+  .parallax-4 button{
+    border-radius: 4px;
+    background-color:goldenrod;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+.para-5 p{
+  font-size: 20px;
+  margin-left:500px;
+}
+.para-5{
+  background-color: whitesmoke;
+}
+  .para-5 img{
+      max-width: 100%;
+      height: auto;
+  }
+.para-6 p{
+  font-size: 20px;
+  margin-left:40px;
+}
+.para-6{
+  background-color: whitesmoke;
+}
+  .para-6 img{
+      max-width: 100%;
+      height: auto;
+  
+  }
+.parallel{
+  width: 100%;
+    height: 500px;
+    background: url('../website or blog/images/laptop-mockup-in-a-workspace.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.parallel h1{
+  color: black;
+  font-size: 40px;
+  text-align: left;
+}
+.parallel h2{
+  font-size: 25px ;
+}
+.parallel p{
+  
+  font-size: 15px;
+}
+.parallel button{
+  border-radius: 4px;
+  background-color:goldenrod;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.parallel-2{
+  width: 100%;
+    height: 300px;
+    background: url('../website or blog/images/HD-wallpaper-microsoft-windows-8-operating-system-13-thumbnail.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.parallel-2 h2{
+  text-align: center;
+  font-size: 30px ;
+  color: whitesmoke;
+}
+.parallel-2 ul{
+  font-size:25px ;
+  color: whitesmoke;
+}
+.par-1{
+  width: 100%;
+  height: 500px;
+  background: url('../website or blog/images/cyber-security-data-protection-business-technology-privacy-concept-cyber-security-data-protection-business-technology-privacy-123053001.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.par-1 h1{
+  color: whitesmoke;
+  font-size: 40px;
+  text-align: left;
+}
+.par-1 p{
+  font-size: 25px;
+ color: whitesmoke;
+}
+.par-1 button{
+  border-radius: 4px;
+  background-color:goldenrod;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.par-2 h1{
+font-size:40px ;
+text-align: left;
+color: black;
+}
+.par-2 p{
+  font-size: 20px;
+  color: black;
+}
+.par-2{
+  background-color: rgb(212, 202, 202);
+}
+.par-3 h2{
+  text-align: center;
+  color: whitesmoke;
+  font-size: 35px;
+
+}
+.par-3 p{
+  font-size:25px; 
+  color:whitesmoke ;
+  margin-left: 300px;
+}
+.par-3{
+  width: 100%;
+  height: 500px;
+  background: url('../website or blog/images/data-protection-cyber-security-privacy-business-internet-technology-concept-free-photo.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  opacity: 0.8; 
+
+}
+.w1{
+  background-image: url('../website or blog/images/top-view-computer-parts-components-white-background-copy-space-center-flat-lay-203753483.jpg');
+  width: 100%;
+  height: 500px;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  text-align: center;
+}
+.w1 h1{
+  font-size:40px ;
+text-align:center;
+color: black;
+}
+.w1 p{
+  text-align: center;
+  font-size: 25px;
+  color:black;
+}
+.w1 button{
+  text-align: center;
+  border-radius: 4px;
+  background-color:goldenrod;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+  border: 1px solid #dadada;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  width: 70%;
+  height:70% ;
+}
+.mouse img{
+  width: 100px;
+  height: 200px;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card button:hover {
+  opacity: 0.7;
+    box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+  }
+.card h1{
+  color: black;
+  font-size: 20px;
+}
+.mouse h1{
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+.mouse{
+  background-color: skyblue;
+}
+.keyboard h1{
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+.keyboard{
+  background-color: lightpink;
+ column-gap: 20px;
+}
+.card:hover{
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.keyboard img{
+  height: 200px;
+  width: 100px;
+}
+.w2{
+  background-image: url('../website or blog/images/im.jpg');
+  width: 100%;
+  height: 500px;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  text-align: center;
+}
+.w2 h1{
+  font-size:40px ;
+color:antiquewhite;
+}
+.w2 p{
+  font-size: 25px;
+  color:antiquewhite;
+}
+.y{
+  background-image: url('../website or blog/images/t.jpg');
+  width: 100%;
+  height: 200px;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  text-align: center;
+  color: whitesmoke;
+}
+.y h1{
+  font-size:50px ;
+  color: whitesmoke;
+}

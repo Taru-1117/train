@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HOME</title>
+        <link rel="stylesheet" href="blog style work2.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+</head>
+    <body>  
+     <div class="main">
+<a href="mailto:sanjeev_svct@yahoo.com" style="font-size:medium ;">E-mail id: sanjeev_svct@yahoo.com</a><br>
+<a href="#" style="font-size:medium ;">Sales: 98146-83813, 9814833813</a>
+</div> 
+           <h1>TARU INFOTECH</h1>
+    <div class="navbar">
+        <br>
+        <a class="active" href="index.html">HOME</a>
+        <a href="mouse.html">ACCESSORIES</a>
+        <div class="dropdown">
+          <button class="dropbtn"><a href="#">SOFTWARE</a>
+           <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="operating.html">Oerating System</a>
+            <a href="security.html">Security Sytem</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn"> <a href="repair.html">REPAIR</a>
+           <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="laptoprep.html">Laptop Repair</a>
+            <a href="computerrep.html">Computer Repair</a>
+            <a href="printerrep.html">Printer Repair</a>
+          </div>
+        </div>
+      <a href="contact2.html">CONTACT US</a>
+      <br>
+      <form class="form-inline my-2 my-lg-0" action="">
+        <input type="search" placeholder="Search" aria-label="Search" required>
+        <button type="submit">Search</button>
+      </form>
+</div>
+<div class="w2"> <br><br><br>
+  <h1>WELCOME TO OUR SITE</h1><br><br>
+<p>
+  Enhance your workspace and improve how you work, communicate and interact with <br>
+   computer accessories, laptop accessories and repairing sevices etc — all from Insight. 
+  <br> by clicking the following button you can ask any qury  <br>
+</p><br><br>
+<button class="cr1" type="button"onclick="window.location.href='contact2.html'"><span>BOOK NOW</span></button>
+</div>
+<div class="slide-container">
+  <div class="slide fade">
+  <img src='../website or blog/images/home6.jpg' width="2000px">
+  </div>
+  <div class="slide fade">
+  <img src='../website or blog/images/home2.png' width="1000%">
+  </div>
+  <div class="slide fade">
+  <img src='../website or blog/images/home3.png' width="1000%">
+  </div>
+  <div class="slide fade">
+  <img src='../website or blog/images/home5.jpg' width="1000%">
+  </div>
+  <a href="#" class="prev" title="Previous">&#10094</a>
+  <a href="#" class="next" title="Next">&#10095</a>
+  </div>
+  <div class="dots-container">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  </div>
+  <script>
+    var currentSlide = 0;
+
+const slides = document.querySelectorAll(".slide")
+
+const dots = document.querySelectorAll('.dot')
+
+const init = (n) => {
+
+slides.forEach((slide) => {
+
+slide.style.display = "none"
+
+dots.forEach((dot) => {
+
+dot.classList.remove("active")
+
+})
+
+})
+
+slides[n].style.display = "block"
+
+dots[n].classList.add("active")
+
+}
+
+document.addEventListener("DOMContentLoaded", init(currentSlide))
+const next = () => {
+
+currentSlide >= slides.length - 1 ? currentSlide = 0 : currentSlide++
+
+init(currentSlide)
+
+}
+
+const prev = () => {
+
+currentSlide <= 0 ? currentSlide = slides.length - 1 : currentSlide--
+
+init(currentSlide)
+
+}
+
+document.querySelector(".next").addEventListener('click', next)
+
+document.querySelector(".prev").addEventListener('click', prev)
+setInterval(() => {
+
+next()
+
+}, 5000);
+dots.forEach((dot, index) => {
+
+dot.addEventListener("click", () => {
+
+init(index)
+
+currentSlide = i
+
+})
+
+})
+     </script> 
+<div class="bar">
+  <button class="b1" onclick="window.location.href='repair.html'"><img src="../website or blog/images/ser-removebg-preview-removebg-preview.png" height="100px"></button>
+  <button class="b1" onclick="window.location.href='operating.html'"><img src="../website or blog/images/os-removebg-preview.png" height="100px"></button>
+  <button class="b1" onclick="window.location.href='security.html'"><img src="../website or blog/images/service-removebg-preview.png" height="100px"></button>
+  <button class="b1" onclick="window.location.href='contact2.html'"><img src="../website or blog/images/download-removebg-preview.png" height="100px"></button>
+</div>
+<nav class="p1">
+  
+  <p>For any problems related Printer  you can contact us by clicking on <br>
+    following button</p>
+    <button class="cr1" type="button"onclick="window.location.href='contact2.html'"><span>CONTACT <br> US</span></button>
+    <br><br>
+</nav>    
+
+<div class="footer">
+  <h3>FOLLOW US ALSO ON:</h3>
+<a class="footer"href="mailto:sanjeev_svct@yahoo.com"><img src="../website or blog/images/m-removebg-preview.png"  width="50px" height="50px"></a>
+<a class="footer"href=""><img src="../website or blog/images/OIP-removebg-preview.png" width="50px"height="50px"></a>
+<a class="footer" href="https://www.facebook.com/ldhcomputershop/reviews/"><img src="../website or blog/images/R-removebg-preview.png" width="50px"height="50px"></a>
+<h3>SHOP ADDRESS</h3>
+<p>Shop No 3, Guru Nanak Market,<br> Bhai Himmat Singh Nagar Road,<br> Dugri, Ludhiana 141002 </p>
+</div>
+
+    </body>
+</html> 
