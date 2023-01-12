@@ -84,7 +84,7 @@ h1{
   display:block;
 }
 div.repair{
-  background-image: url("../website or blog/images/r1.jpg");
+  background-image: url("../train/images/r1.jpg");
   color: whitesmoke;
   background-size:cover;
 }
@@ -92,7 +92,7 @@ h1.repair{
   color:floralwhite;
 }
 button.lr{
-   background-image:url("../website or blog/images/lr.jpeg");
+   background-image:url("../train/images/lr.jpeg");
    background-size: cover;
    font-size: 50px;
    color: whitesmoke;
@@ -107,7 +107,7 @@ button.lr{
   transform: scale(1.5); 
 }
 button.cr{
-  background-image: url("../website or blog/images/cr.jpg");
+  background-image: url("../train/images/cr.jpg");
   background-size: cover;
   font-size: 50px;
   color: whitesmoke;
@@ -122,7 +122,7 @@ button.cr{
   transform: scale(1.5); 
 }
 button.Pr{
-  background-image: url("../website or blog/images/pr1.jpeg");
+  background-image: url("../train/images/pr1.jpeg");
   background-size: cover;
   font-size: 50px;
   color: whitesmoke;
@@ -137,7 +137,7 @@ button.Pr{
   transform: scale(1.5); 
 }
 h1.c{
-  background-image: url("../website or blog/images/cu1.jpg");
+  background-image: url("../train/images/cu1.jpg");
   background-size: cover;
   text-align: center;
   color: whitesmoke;
@@ -155,7 +155,7 @@ div.icon-bar{
 }
 
 .laprepair{
-  background-image: url("../website or blog/images/lr1.jpg");
+  background-image: url("../train/images/lr1.jpg");
   background-size: cover;
 }
 
@@ -318,7 +318,7 @@ ul.cc{
   font-size: 40px;
 }
 div.parallax{
-  background-image: url('../website or blog/images/br.jpg');
+  background-image: url('../train/images/br.jpg');
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -338,7 +338,7 @@ img.rc{
 background-color:black;
 }
 nav.p1{
-  background-image: url('../website or blog/images/br1.jpg');
+  background-image: url('../train/images/br1.jpg');
   background-position: center;
   height: 100%;
   background-repeat: no-repeat;
@@ -366,7 +366,7 @@ button.cr1{
   margin: 5px;
 }
 div.l{
-background-image:url('../website or blog/images/hardware-computer-computer-service-technology.jpg') ;
+background-image:url('../train/images/hardware-computer-computer-service-technology.jpg') ;
 height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -414,7 +414,7 @@ cursor: pointer;
   opacity: 0.7; 
  }
  .o{
-  background-image: url('../website or blog/images/b1.jpg');
+  background-image: url('../train/images/b1.jpg');
   background-position: center;
   height: 100%;
   background-repeat: no-repeat;
@@ -447,7 +447,7 @@ button[type=submit]:hover{
 .parallax-1 {
   width: 100%;
   height: 500px;
-  background: url('../website or blog/images/istockphoto-1292991881-170667a.jpg');
+  background: url('../train/images/istockphoto-1292991881-170667a.jpg');
   background-size: 100% 100%;
   background-attachment: fixed;
 }
@@ -482,7 +482,7 @@ button[type=submit]:hover{
 .parallax-2 {
   width: 100%;
   height: 600px;
-  background: url('../website or blog/images/360_F_415765406_bNYus3fB14MOQEBTwFM6WeCmj7byxGRO.jpg');
+  background: url('../train/images/360_F_415765406_bNYus3fB14MOQEBTwFM6WeCmj7byxGRO.jpg');
   background-size: 100% 100%;
   background-attachment: fixed;
   opacity: 0.7; 
@@ -518,7 +518,7 @@ font-size: 20px;
   .parallax-3 {
     width: 100%;
     height: 500px;
-    background: url('../website or blog/images/8a36f1b33b436275a8424ab0d7c307da.jpg');
+    background: url('../train/images/8a36f1b33b436275a8424ab0d7c307da.jpg');
     background-size: 100% 100%;
     background-attachment: fixed;
   }
@@ -549,7 +549,7 @@ font-size: 20px;
   .parallax-4 {
     width: 100%;
     height: 500px;
-    background: url('../website or blog/images/print.jpg');
+    background: url('../train/images/print.jpg');
     background-size: 100% 100%;
     background-attachment: fixed;
   }
@@ -605,7 +605,7 @@ font-size: 20px;
 .parallel{
   width: 100%;
     height: 500px;
-    background: url('../website or blog/images/laptop-mockup-in-a-workspace.jpg');
+    background: url('../train/images/laptop-mockup-in-a-workspace.jpg');
     background-size: 100% 100%;
     background-attachment: fixed;
 }
@@ -637,7 +637,7 @@ font-size: 20px;
 .parallel-2{
   width: 100%;
     height: 300px;
-    background: url('../website or blog/images/HD-wallpaper-microsoft-windows-8-operating-system-13-thumbnail.jpg');
+    background: url('../train/images/HD-wallpaper-microsoft-windows-8-operating-system-13-thumbnail.jpg');
     background-size: 100% 100%;
     background-attachment: fixed;
 }
@@ -653,7 +653,7 @@ font-size: 20px;
 .par-1{
   width: 100%;
   height: 500px;
-  background: url('../website or blog/images/cyber-security-data-protection-business-technology-privacy-concept-cyber-security-data-protection-business-technology-privacy-123053001.jpg');
+  background: url('../train/images/cyber-security-data-protection-business-technology-privacy-concept-cyber-security-data-protection-business-technology-privacy-123053001.jpg');
   background-size: 100% 100%;
   background-attachment: fixed;
 }
@@ -705,14 +705,14 @@ color: black;
 .par-3{
   width: 100%;
   height: 500px;
-  background: url('../website or blog/images/data-protection-cyber-security-privacy-business-internet-technology-concept-free-photo.jpg');
+  background: url('../train/images/data-protection-cyber-security-privacy-business-internet-technology-concept-free-photo.jpg');
   background-size: 100% 100%;
   background-attachment: fixed;
   opacity: 0.8; 
 
 }
 .w1{
-  background-image: url('../website or blog/images/top-view-computer-parts-components-white-background-copy-space-center-flat-lay-203753483.jpg');
+  background-image: url('../train/images/top-view-computer-parts-components-white-background-copy-space-center-flat-lay-203753483.jpg');
   width: 100%;
   height: 500px;
   background-size: 100% 100%;
@@ -809,7 +809,7 @@ color: black;
   width: 100px;
 }
 .w2{
-  background-image: url('../website or blog/images/im.jpg');
+  background-image: url('../train/images/im.jpg');
   width: 100%;
   height: 500px;
   background-size: 100% 100%;
@@ -825,7 +825,7 @@ color:antiquewhite;
   color:antiquewhite;
 }
 .y{
-  background-image: url('../website or blog/images/t.jpg');
+  background-image: url('../train/images/t.jpg');
   width: 100%;
   height: 200px;
   background-size: 100% 100%;
