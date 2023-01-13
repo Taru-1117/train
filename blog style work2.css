@@ -953,9 +953,9 @@ button .s{
   font-size: medium;
   border:20p;
 }
-.clearfix{
+.clearfix button{
     width:60%;
-    height:30%
+    height:30%;
 }
 .s:hover{
     background-color: green;
