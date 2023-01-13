@@ -964,7 +964,7 @@ color:antiquewhite;
     background-color: green;
     color: white;
 }
-button.mb{
+.mb{
    background-image:url(".../train/images/wired-computer-mouse-yellow-background-top-view-166645952.jpg");
    background-size: cover;
    font-size: 50px;
@@ -979,7 +979,7 @@ button.mb{
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5); 
 }
-button.kb{
+    .kb{
    background-image:url("https://images.app.goo.gl/6f3P7ieU7E1rddHm9");
    background-size: cover;
    font-size: 50px;
@@ -994,7 +994,7 @@ button.kb{
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5); 
 }
-button.hb{
+.hb{
    background-image:url("https://images.app.goo.gl/h4vaEvZDHas3xmn5A");
    background-size: cover;
    font-size: 50px;
