@@ -919,7 +919,7 @@ color:antiquewhite;
 }
  
 /* The Close Button (x) */
-.model .close {
+.close {
   position: absolute;
   right: 35px;
   top: 15px;
@@ -928,20 +928,23 @@ color:antiquewhite;
   color: #f1f1f1;
 }
 
-.model .close:hover,
+ .close:hover,
 .close:focus {
   color: #f44336;
   cursor: pointer;
 }
 
 /* Clear floats */
-.model .clearfix::after {
+.clearfix::after {
   content: "";
   clear: both;
   display:table;
 }
 @media screen and (max-width: 300px) {
-  .model .cancelbtn, .signupbtn {
+  .cancelbtn, .signupbtn {
      width: 100%;
   }
+}
+clearfix{
+    display:flex;
 }
