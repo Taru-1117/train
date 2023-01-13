@@ -964,4 +964,48 @@ color:antiquewhite;
     background-color: green;
     color: white;
 }
-    
+button.mb{
+   background-image:url(".../train/images/wired-computer-mouse-yellow-background-top-view-166645952.jpg");
+   background-size: cover;
+   font-size: 50px;
+   color: whitesmoke;
+   text-align: center;
+   transition: transform .2s;
+   margin: 0 auto;
+   cursor: pointer;
+  }
+.mb:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+button.kb{
+   background-image:url("https://images.app.goo.gl/6f3P7ieU7E1rddHm9");
+   background-size: cover;
+   font-size: 50px;
+   color: whitesmoke;
+   text-align: center;
+   transition: transform .2s;
+   margin: 0 auto;
+   cursor: pointer;
+  }
+.kb:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+button.hb{
+   background-image:url("https://images.app.goo.gl/h4vaEvZDHas3xmn5A");
+   background-size: cover;
+   font-size: 50px;
+   color: whitesmoke;
+   text-align: center;
+   transition: transform .2s;
+   margin: 0 auto;
+   cursor: pointer;
+  }
+.hb:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
