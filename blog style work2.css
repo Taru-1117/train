@@ -955,6 +955,13 @@ color:antiquewhite;
    font-size:30px;
     text-align: left;
 }
+.s button{
+    text-allign: left;
+    font-size: 30px;
+}
+clearfix{
+    display:flex;
+}
 .s:hover{
     background-color: green;
     color: white;
