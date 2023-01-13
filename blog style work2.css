@@ -949,11 +949,11 @@ color:antiquewhite;
     color: black;
     text-align:left;
 }
-.s button{
+.s{
    color: green;
    background-color: aliceblue;
 }
-.s button:hover{
+.s:hover{
     background-color: green;
     color: white;
 }
