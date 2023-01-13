@@ -945,6 +945,15 @@ color:antiquewhite;
      width: 100%;
   }
 }
-clearfix{
-    display:flex;
+.modal h1{
+    color: black;
+    text-align:left;
+}
+.s button{
+   color: green;
+   background-color: aliceblue;
+}
+.s button:hover{
+    background-color: green;
+    color: white;
 }
