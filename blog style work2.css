@@ -925,12 +925,12 @@ color:antiquewhite;
   top: 15px;
   font-size: 40px;
   font-weight: bold;
-  color: #f1f1f1;
+  color:white;
 }
 
  .close:hover,
 .close:focus {
-  color: #f44336;
+  color: whitesmoke;
   cursor: pointer;
 }
 
@@ -952,8 +952,15 @@ color:antiquewhite;
 .s{
    color: green;
    background-color: aliceblue;
+   font-size:20px;
+    text-align: left;
 }
 .s:hover{
     background-color: green;
     color: white;
 }
+.m{
+    font-size:10px;
+    color:blue;
+}
+    
