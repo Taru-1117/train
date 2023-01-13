@@ -940,24 +940,18 @@ color:antiquewhite;
   clear: both;
   display:table;
 }
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-     width: 100%;
-  }
-}
 .modal h1{
     color: black;
     text-align:left;
 }
 .s{
    color: green;
-   background-color: aliceblue;
-   font-size:30px;
-    text-align: left;
-}
-.s button{
-    text-allign: left;
-    font-size: 30px;
+  width: 70px;
+  height: 30px;
+  background-color:lightgray;
+  margin-left: 500px;
+  font-size: medium;
+  border:20p;
 }
 clearfix{
     display:flex;
