@@ -944,14 +944,17 @@ color:antiquewhite;
     color: black;
     text-align:left;
 }
-button .s{
-   color: green;
-  width: 70px;
-  height: 30px;
-  background-color:lightgray;
-  margin-left: 500px;
-  font-size: medium;
-  border:20p;
+.s{
+  background-color:goldenrod;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
 .clearfix button{
     width:60%;
