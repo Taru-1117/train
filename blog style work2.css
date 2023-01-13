@@ -790,7 +790,8 @@ color: black;
   text-align: center;
 }
 .mouse{
-  background-color: skyblue;
+column-gap:20px;
+    
 }
 .keyboard h1{
   color: black;
@@ -798,7 +799,6 @@ color: black;
   font-size: 30px;
 }
 .keyboard{
-  background-color: lightpink;
  column-gap: 20px;
 }
 .card:hover{
