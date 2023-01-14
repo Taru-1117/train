@@ -974,7 +974,6 @@ color:antiquewhite;
    transition: transform .2s;
    margin: 0 auto;
    cursor: pointer;
-    margin-left:400px;
   }
 .mb:hover{
   -ms-transform: scale(1.5); /* IE 9 */
@@ -991,7 +990,6 @@ color:antiquewhite;
    transition: transform .2s;
    margin: 0 auto;
    cursor: pointer;
-   margin-left:400px;
   }
 .kb:hover{
   -ms-transform: scale(1.5); /* IE 9 */
@@ -1007,7 +1005,6 @@ color:antiquewhite;
    text-align: center;
    margin: 0 auto;
    cursor: pointer;
-    margin-left:400px;
   }
 .hb:hover{
   -ms-transform: scale(1.5); /* IE 9 */
