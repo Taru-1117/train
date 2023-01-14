@@ -965,8 +965,8 @@ color:antiquewhite;
     color: white;
 }
 .mb{
-   background-image:url(".../train/images/wired-computer-mouse-yellow-background-top-view-166645952.jpg");
-   background-size: cover;
+    b ackground-color: #6e2b42fb;
+    background-size: cover;
    font-size: 50px;
    color: whitesmoke;
    text-align: center;
@@ -980,8 +980,8 @@ color:antiquewhite;
   transform: scale(1.5); 
 }
     .kb{
-   background-image:url(".../train/images/download-1.jpg");
-   background-size: cover;
+        background-color: #8f2d4efb;
+        background-size: cover;
    font-size: 50px;
    color: whitesmoke;
    text-align: center;
@@ -995,8 +995,8 @@ color:antiquewhite;
   transform: scale(1.5); 
 }
 .hb{
-   background-image:url(".../train/images/wireless-sound-audio-headphones-colored-banner-background-music-app-listening-podcasts-r_90380-3186.webp");
-   background-size: cover;
+    backgroundcolor: #f53677;
+    background-size: cover;
    font-size: 50px;
    color: whitesmoke;
    text-align: center;
