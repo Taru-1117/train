@@ -966,8 +966,9 @@ color:antiquewhite;
 }
 .mb{
     b ackground-color: #6e2b42fb;
-    background-size: cover;
-   font-size: 50px;
+ width:40%;
+    height:30%;
+    font-size: 50px;
    color: whitesmoke;
    text-align: center;
    transition: transform .2s;
@@ -981,8 +982,9 @@ color:antiquewhite;
 }
     .kb{
         background-color: #8f2d4efb;
-        background-size: cover;
-   font-size: 50px;
+ width:40%;
+    height:30%;
+        font-size: 50px;
    color: whitesmoke;
    text-align: center;
    transition: transform .2s;
@@ -996,11 +998,11 @@ color:antiquewhite;
 }
 .hb{
     backgroundcolor: #f53677;
-    background-size: cover;
-   font-size: 50px;
+   width:40%;
+    height:30%;
+    font-size: 50px;
    color: whitesmoke;
    text-align: center;
-   transition: transform .2s;
    margin: 0 auto;
    cursor: pointer;
   }
