@@ -965,7 +965,7 @@ color:antiquewhite;
     color: white;
 }
 .mb{
-    b ackground-color: #6e2b42fb;
+    background-color: #6e2b42fb;
  width:40%;
     height:30%;
     font-size: 50px;
@@ -974,6 +974,7 @@ color:antiquewhite;
    transition: transform .2s;
    margin: 0 auto;
    cursor: pointer;
+    margin-left:400px;
   }
 .mb:hover{
   -ms-transform: scale(1.5); /* IE 9 */
@@ -990,6 +991,7 @@ color:antiquewhite;
    transition: transform .2s;
    margin: 0 auto;
    cursor: pointer;
+   margin-left:400px;
   }
 .kb:hover{
   -ms-transform: scale(1.5); /* IE 9 */
@@ -997,7 +999,7 @@ color:antiquewhite;
   transform: scale(1.5); 
 }
 .hb{
-    backgroundcolor: #f53677;
+    background-color: #f53677;
    width:40%;
     height:30%;
     font-size: 50px;
@@ -1005,6 +1007,7 @@ color:antiquewhite;
    text-align: center;
    margin: 0 auto;
    cursor: pointer;
+    margin-left:400px;
   }
 .hb:hover{
   -ms-transform: scale(1.5); /* IE 9 */
