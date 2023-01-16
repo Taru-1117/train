@@ -110,7 +110,7 @@ button.cr{
   background-image: url("../train/images/cr.jpg");
   background-size: cover;
   font-size: 50px;
-  color: whitesmoke;
+  color: black;
  text-align: center;
  transition: transform .2s;
  margin: 0 auto;
